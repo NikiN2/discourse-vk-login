@@ -7,7 +7,7 @@
 enabled_site_setting :vk_client_id
 enabled_site_setting :vk_client_secret
 
-gem 'omniauth-vkontakte', '1.3.6'
+gem 'omniauth-vkontakte', '1.4.1'
 
 # load the engine
 load File.expand_path('../lib/vk.rb', __FILE__)
